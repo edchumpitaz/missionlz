@@ -745,7 +745,7 @@ module logAnalyticsWorkspace './modules/log-analytics-workspace.bicep' = {
   scope: resourceGroup(operationsSubscriptionId, operationsResourceGroupName)
   params: {
     name: logAnalyticsWorkspaceName
-    location: location
+    location: 'usgovvirginia'
     tags: calculatedTags
     deploySentinel: deploySentinel
     retentionInDays: logAnalyticsWorkspaceRetentionInDays
