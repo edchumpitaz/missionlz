@@ -534,7 +534,7 @@ param emailSecurityContact string = ''
 
 var resourceToken = 'resource_token'
 var nameToken = 'name_token'
-var namingConvention = '${toLower(resourcePrefix)}-${resourceToken}-${nameToken}-${toLower(resourceSuffix)}'
+var namingConvention = '${resourceToken}-${toLower(resourcePrefix)}-${nameToken}-${toLower(resourceSuffix)}'
 
 /*
 
