@@ -234,7 +234,7 @@
                   "name": "resourceSuffix",
                   "label": "Resource Naming Suffix",
                   "type": "Microsoft.Common.DropDown",
-                  "defaultValue": "dev",
+                  "defaultValue": "mlz",
                   "toolTip": "Select a resource naming suffix to append to all resources.",
                   "multiselect": false,
                   "selectAll": false,
@@ -243,6 +243,11 @@
                   "multiLine": true,
                   "constraints": {
                     "allowedValues": [
+                      {
+                        "label": "mlz",
+                        "description": "Select if you want to append 'mlz' to your resources.",
+                        "value": "mlz"
+                      },
                       {
                         "label": "dev",
                         "description": "Select if you want to append 'dev' to your resources.",
