@@ -833,7 +833,7 @@
   "variables": {
     "resourceToken": "resource_token",
     "nameToken": "name_token",
-    "namingConvention": "[format('{0}-{1}-{2}-{3}', toLower(parameters('resourcePrefix')), variables('resourceToken'), variables('nameToken'), toLower(parameters('resourceSuffix')))]",
+    "namingConvention": "[format('{0}-{1}-{2}-{3}', variables('resourceToken'), toLower(parameters('resourcePrefix')), variables('nameToken'), toLower(parameters('resourceSuffix')))]",
     "bastionHostNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'bas')]",
     "firewallNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'afw')]",
     "firewallPolicyNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'afwp')]",
