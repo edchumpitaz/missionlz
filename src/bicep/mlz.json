@@ -844,7 +844,7 @@
     "publicIpAddressNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'pip')]",
     "resourceGroupNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'rg')]",
     "storageAccountNamingConvention": "[toLower(format('stor{0}{1}unique_storage_token', parameters('resourcePrefix'), variables('nameToken')))]",
-    "subnetNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'snet')]",
+    "subnetNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'subnet')]",
     "virtualMachineNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'vm')]",
     "virtualNetworkNamingConvention": "[replace(variables('namingConvention'), variables('resourceToken'), 'vnet')]",
     "hubName": "hub",
