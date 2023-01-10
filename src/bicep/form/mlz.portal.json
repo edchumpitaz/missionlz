@@ -224,7 +224,7 @@
                     "required": true,
                     "validations": [
                       {
-                        "regex": "^[a-z0-9-]{1,10}$",
+                        "regex": "^[a-z0-9]{1,10}$",
                         "message": "The prefix must be between 1-10 lowercase characters and numbers."
                       }
                     ]
