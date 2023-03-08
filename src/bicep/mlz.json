@@ -23,7 +23,7 @@
       "metadata": {
         "description": "A suffix, 3 to 6 characters in length, to append to resource names (e.g. \"dev\", \"test\", \"prod\", \"mlz\"). It defaults to \"mlz\"."
       },
-      "maxLength": 8,
+      "maxLength": 6,
       "minLength": 3
     },
     "hubSubscriptionId": {
