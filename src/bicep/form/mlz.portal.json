@@ -246,7 +246,7 @@
                       {
                         "label": "mlz",
                         "description": "Select if you want to append 'mlzgovva' to your resources.",
-                        "value": "mlzgovva"
+                        "value": "mlz"
                       },
                       {
                         "label": "dev",
