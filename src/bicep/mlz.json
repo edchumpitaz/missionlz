@@ -19,9 +19,9 @@
     },
     "resourceSuffix": {
       "type": "string",
-      "defaultValue": "mlzgovva",
+      "defaultValue": "mlz",
       "metadata": {
-        "description": "A suffix, 3 to 8 characters in length, to append to resource names (e.g. \"dev\", \"test\", \"prod\", \"mlzgovva\"). It defaults to \"mlzgovva\"."
+        "description": "A suffix, 3 to 6 characters in length, to append to resource names (e.g. \"dev\", \"test\", \"prod\", \"mlz\"). It defaults to \"mlz\"."
       },
       "maxLength": 8,
       "minLength": 3
