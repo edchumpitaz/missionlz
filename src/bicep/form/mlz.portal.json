@@ -234,7 +234,7 @@
                   "name": "resourceSuffix",
                   "label": "Resource Naming Suffix",
                   "type": "Microsoft.Common.DropDown",
-                  "defaultValue": "mlzgovva",
+                  "defaultValue": "mlz",
                   "toolTip": "Select a resource naming suffix to append to all resources.",
                   "multiselect": false,
                   "selectAll": false,
